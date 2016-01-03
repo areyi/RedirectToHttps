@@ -17,3 +17,4 @@ protected $middleware = [
 ];
 
 ```
+* Edit YOURSITEHERE to your own site, e.g: www.studionexus.co
