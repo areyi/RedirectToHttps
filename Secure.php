@@ -18,7 +18,7 @@ class Secure
     {
            if(!$request->secure() || substr($request->header('host'), 0, 4)  != 'www.'){
                $request->setTrustedProxies( [ $request->getClientIp() ] ); 
-               $request->headers->set('host', 'www.studionexus.co');
+               $request->headers->set('host', 'YOURSITEHERE');
                return redirect()->secure($request->getRequestUri());
            }
 
