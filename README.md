@@ -18,3 +18,8 @@ protected $middleware = [
 
 ```
 * Edit YOURSITEHERE to your own site, e.g: www.studionexus.co
+```php
+...
+$request->headers->set('host', 'www.studionexus.co');
+...
+```
